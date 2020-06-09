@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: #525252f2;
+    position: relative;
+    
+}
+
+.nav-ul{
+    align-items: center;
+    width: 30%;
+    display: flex;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+}
+.nav-item a:hover{
+    color: #dfdfdf;
+    text-decoration: none;
+    font-size: 28px;
+}
+.main{
+    display: flex;
+}
+
+.first-image{
+    width: 50%;
+    background-color: black;
+}
+.first-image img{
+    width: 100%;
+}
+
+.title-general{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 50%;
+    padding-left: 30px;
+}
+
+.title-general h1{
+    color: #de0d00;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.title-general a{
+    color: #cacaca;
+    text-decoration: none;
+}
+
+.text-principal{
+    background-image: url('../assets/images/campo.png');
+    background-size: cover;
+    background-position: bottom;
+}
+.container-text{
+    padding: 80px 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.container-text p{
+    color: #ffffff;
+}
+
+footer{
+    background-color: black;
+}
+
+.footer{
+    padding: 20px 0;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+.contain-footer{
+    margin: 0 50px;
+    color: #ffffff;
+}
+.contain-footer p{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.contain-footer a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 20px 0;
+}
+
+.copy{
+    background-color: black;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0;
+}
